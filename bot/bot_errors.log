@@ -1,0 +1,42 @@
+2024-12-15 21:22:45,346 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-15 21:22:45,346 [INFO] Added job "send_weekly_recommendations" to job store "default"
+2024-12-15 21:22:45,346 [INFO] Scheduler started
+2024-12-15 21:22:45,346 [INFO] Start polling
+2024-12-15 21:22:45,798 [INFO] Run polling for bot @BagginsCof_bot id=7278593611 - 'BagginsCoffee_bot'
+2024-12-15 21:23:05,346 [INFO] Running job "send_weekly_recommendations (trigger: interval[0:00:20], next run at: 2024-12-15 21:23:25 MSK)" (scheduled at 2024-12-15 21:23:05.345876+03:00)
+2024-12-15 21:23:05,360 [INFO] SELECT DATABASE()
+2024-12-15 21:23:05,360 [INFO] [raw sql] ()
+2024-12-15 21:23:05,361 [INFO] SELECT @@sql_mode
+2024-12-15 21:23:05,362 [INFO] [raw sql] ()
+2024-12-15 21:23:05,362 [INFO] SELECT @@lower_case_table_names
+2024-12-15 21:23:05,362 [INFO] [raw sql] ()
+2024-12-15 21:23:05,363 [INFO] BEGIN (implicit)
+2024-12-15 21:23:05,367 [INFO] SELECT customer_id.`C_id`, customer_id.customer_id, customer_id.tg_id, customer_id.created_at 
+FROM customer_id
+2024-12-15 21:23:05,367 [INFO] [generated in 0.00035s] ()
+2024-12-15 21:23:06,468 [INFO] ROLLBACK
+2024-12-15 21:23:06,470 [INFO] Job "send_weekly_recommendations (trigger: interval[0:00:20], next run at: 2024-12-15 21:23:25 MSK)" executed successfully
+2024-12-15 21:23:23,048 [WARNING] Received SIGINT signal
+2024-12-15 21:23:23,049 [INFO] Polling stopped for bot @BagginsCof_bot id=7278593611 - 'BagginsCoffee_bot'
+2024-12-15 21:23:23,051 [INFO] Polling stopped
+2024-12-15 22:35:39,106 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-15 22:35:39,106 [INFO] Added job "send_weekly_recommendations" to job store "default"
+2024-12-15 22:35:39,106 [INFO] Scheduler started
+2024-12-15 22:35:39,106 [INFO] Start polling
+2024-12-15 22:35:39,558 [INFO] Run polling for bot @BagginsCof_bot id=7278593611 - 'BagginsCoffee_bot'
+2024-12-15 22:36:39,107 [INFO] Running job "send_weekly_recommendations (trigger: interval[0:01:00], next run at: 2024-12-15 22:37:39 MSK)" (scheduled at 2024-12-15 22:36:39.105805+03:00)
+2024-12-15 22:36:39,185 [INFO] SELECT DATABASE()
+2024-12-15 22:36:39,185 [INFO] [raw sql] ()
+2024-12-15 22:36:39,190 [INFO] SELECT @@sql_mode
+2024-12-15 22:36:39,191 [INFO] [raw sql] ()
+2024-12-15 22:36:39,192 [INFO] SELECT @@lower_case_table_names
+2024-12-15 22:36:39,192 [INFO] [raw sql] ()
+2024-12-15 22:36:39,195 [INFO] BEGIN (implicit)
+2024-12-15 22:36:39,201 [INFO] SELECT customer_id.`C_id`, customer_id.customer_id, customer_id.tg_id, customer_id.created_at 
+FROM customer_id
+2024-12-15 22:36:39,201 [INFO] [generated in 0.00059s] ()
+2024-12-15 22:36:41,113 [INFO] ROLLBACK
+2024-12-15 22:36:41,118 [INFO] Job "send_weekly_recommendations (trigger: interval[0:01:00], next run at: 2024-12-15 22:37:39 MSK)" executed successfully
+2024-12-15 22:37:29,829 [WARNING] Received SIGINT signal
+2024-12-15 22:37:29,831 [INFO] Polling stopped for bot @BagginsCof_bot id=7278593611 - 'BagginsCoffee_bot'
+2024-12-15 22:37:29,831 [INFO] Polling stopped
